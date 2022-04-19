@@ -1,0 +1,174 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+    --black: #0A0A0A;
+    --orange: #f16e43;
+    --light-pink: #EDDCDC;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    color: var(--black);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    height: 34rem;
+    background: linear-gradient(rgba(2, 3, 21, .84), rgba(0, 0, 0, 0)), url("images/road.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+
+    height: 4rem;
+    width: 100%;
+    padding: 0 2.25rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    width: 12rem;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.25rem;
+}
+
+header .title {
+    margin-left: 17%;
+}
+
+/*header h1 {*/
+/*    font-family: 'Caudex', serif;*/
+/*    font-size: 4.375rem;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+header h2 {
+    color: var(--light-pink);
+    font-size: 3rem;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+section {
+    padding: 2rem 5rem;
+}
+
+section.callout {
+    padding-top: 8.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+section.callout p {
+    line-height: 1.3;
+}
+
+section.callout strong {
+    font-weight: 400;
+}
+
+.divider {
+    height: 5.75rem;
+    width: 0;
+    border-left: 1px solid var(--orange);
+    margin: 1rem auto;
+}
+
+footer {
+    background-color: var(--black);
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.column {
+    flex: 1;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 3rem;
+}
+
+.shadow {
+    box-shadow: 2px 2px 36px -1px rgba(35, 62, 94, .16);
+}
